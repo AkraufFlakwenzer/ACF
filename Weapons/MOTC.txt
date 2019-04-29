@@ -1,0 +1,30 @@
+@name MOTC i19
+@inputs Active [Chair Base Gun CamPos]:entity Cam:wirelink Keys:table
+@persist FOV
+@persist [Hold Inertia]:angle
+@persist Mouse2
+
+# Mouse Operated and Turret Control
+# Designed by Akrauf
+
+if(~Keys) {
+  Mouse2 = Keys["mouse_right", number]
+  FOV = clamp(FOV - Keys["t", number] + Keys["g", number], 10, 90)
+}
+
+if(~Active) {
+  FOV = 90
+  Cam["Activated", number] = Active
+  
+  if(Active) {
+    Cam["Position", vector] = CamPos:pos()
+    Cam["Parent", entity] = entity()
+  }
+}
+
+if(Active) {
+  Cam["FOV", number] = FOV
+  if(Mouse2) {
+    Hold = Base:toLocal(Gun)
+  }
+}
