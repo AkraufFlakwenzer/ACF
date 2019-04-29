@@ -1,0 +1,16 @@
+@name Input Bus i5
+@inputs Active Chair:entity [Pod Cam EGP]:wirelink
+@outputs Active Chair:entity [Pod Cam EGP]:wirelink Keys:table
+
+Active = Active
+if(~Active) {
+  runOnKeys(Chair:driver(), 1)
+}
+if(clkKey()) {
+  Keys[clkKeyPressed(), number] = Chair:driver():keyPressed(clkKeyPressed())
+}
+
+Chair = Chair
+Pod = Pod
+Cam = Cam
+EGP = EGP
