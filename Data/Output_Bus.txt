@@ -1,0 +1,10 @@
+@name Output Bus i9
+@inputs Active Chair:entity [Pod Cam EGP]:wirelink Keys:table
+@outputs Active Chair:entity [Pod Cam EGP]:wirelink Keys:table
+
+Active = Active
+Chair = Chair
+Pod = Pod
+Cam = Cam
+EGP = EGP
+Keys = Keys
