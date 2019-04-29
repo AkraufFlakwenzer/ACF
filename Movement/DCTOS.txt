@@ -1,7 +1,0 @@
-@name DCTOS i14
-@inputs Active RPM RPMIdle RPMPowerband Gear:wirelink Keys:table
-
-# Dual-Clutch Tank Operating System
-# Designed by Akrauf
-
-Gear["Left Clutch", number] = 1 - ((RPM-RPMIdle)/(RPMPowerband-RPMIdle)) + Keys["a", number]

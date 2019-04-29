@@ -1,0 +1,10 @@
+@name ADCLS i14
+@inputs Active RPM RPMIdle RPMPowerband Gear:wirelink Keys:table
+
+# Active Dual-Clutch Lock Steering
+# Designed by Akrauf
+
+Gear["Left Clutch", number] = 1 - ((RPM-RPMIdle)/(RPMPowerband-RPMIdle)) + Keys["d", number]
+Gear["Right Clutch", number] = 1 - ((RPM-RPMIdle)/(RPMPowerband-RPMIdle)) + Keys["a", number]
+Gear["Left Brake", number] = (Keys["d", number] | Keys["s", number]) * 30
+Gear["Right Brake", number] = (Keys["a", number] | Keys["s", number]) * 30
