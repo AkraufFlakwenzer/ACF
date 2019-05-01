@@ -1,0 +1,21 @@
+@name Advanced Differential Tank Maneuvering i2
+@inputs Active Keys:table RPM
+@outputs Throttle Clutch Brake
+@persist Idle Powerband
+
+if(first() || dupefinished()) {
+########################################################
+
+Idle = 500
+Powerband = 500
+
+########################################################
+}
+
+if(Active) {
+  Throttle = Keys["w", number] * 100
+  Clutch = 1 - ((RPM-Idle) / (Powerband-Idle))
+  Break = Keys["s", number] * 45
+} else {
+  Break = 100
+}
