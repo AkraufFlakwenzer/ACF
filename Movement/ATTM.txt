@@ -1,7 +1,9 @@
-@name Advanced Differential Tank Maneuvering i2
+@name ATTM i6
 @inputs Active Keys:table RPM
-@outputs Throttle Clutch Brake
+@outputs Throttle Clutch Brake LeftGear RightGear
 @persist Idle Powerband
+
+### Advanced Transfer Tank Maneuvering system
 
 if(first() || dupefinished()) {
 ########################################################
@@ -16,6 +18,8 @@ if(Active) {
   Throttle = Keys["w", number] * 100
   Clutch = 1 - ((RPM-Idle) / (Powerband-Idle))
   Break = Keys["s", number] * 45
+  LeftGear = 1 + Keys["a", number]
+  RightGear = 1 + Keys["d", number]
 } else {
   Break = 100
 }
