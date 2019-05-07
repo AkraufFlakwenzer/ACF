@@ -1,10 +1,43 @@
 Material Costs
--------------------------------
-RHA         $1.15/kg
-Cast        $1.21/kg
-Ceramic     $1.54/kg
-Aluminium   $0.73/kg
-ERA         
-Textile     
-Fiberglass  
-Rubber      
+--------------------------------------------------------------
+RHA, Cast, Ceramic, Aluminium, ERA, Textile, Fiberglass, Rubber
+
+Steel                 $1.77/kg
+  (RHA) Hardness.
+Steel                 $1.21/kg
+  (Cast) Strength.
+Aluminium             $1.74/kg
+  (Aluminium) Lightness.
+Rubber                $1.58/kg
+  (Rubber) Heat dispersion, spall.
+Titanium Carbide      $67.90/kg
+  (Ceramic) Hardness.
+Boron Carbide         $15.74/kg
+  (Ceramic) Lightness, hardness; small projectiles.
+Silicon Carbide       $1.74/kg
+  (Ceramic) Large projectiles.
+Carbon Fibre          $143.91/kg
+  (Textile) Lightness, strength.
+Carbon Graphite 101   $1.65/kg
+  (Textile) Lightness; spall.
+Titanium Grade 7H     $47.85/kg
+  (Cast) Lightness, strength.
+Depleted Uranium      $55.67/kg
+  (RHA) Heavy, hardness.
+
+
+
+Fuel Costs
+--------------------------------------------------------------
+Petrol, Diesel
+
+Petrol  $0.65/L
+Diesel  $0.81/L
+
+
+
+Akrauftozha Composite Armour Prototypes
+--------------------------------------------------------------
+Kunita Kotehain Armour
+
+AAPC 1
