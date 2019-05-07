@@ -2,9 +2,9 @@ Material Costs
 --------------------------------------------------------------
 RHA, Cast, Ceramic, Aluminium, ERA, Textile, Fiberglass, Rubber
 
-Steel                 $1.77/kg
+Hot Rolled Steel      $1.77/kg
   (RHA) Hardness.
-Steel                 $1.21/kg
+Cast Steel            $1.21/kg
   (Cast) Strength.
 Aluminium             $1.74/kg
   (Aluminium) Lightness.
@@ -38,6 +38,18 @@ Diesel  $0.81/L
 
 Akrauftozha Composite Armour Prototypes
 --------------------------------------------------------------
-Kunita Kotehain Armour
-
-AAPC 1
+Kunita Kotehain     $
+  Carbon Graphite/Depleted Uranium/Hot Rolled Steel/Rubber/Silicon Carbide/Silicon Carbide/Cast Steel
+  Carbon Graphite:  0.45%
+  Depleted Uranium: 7.55%
+  Hot Rolled Steel: 37.25%
+  Rubber:           10.50%
+  Silicon Carbide:  28.95%
+  Cast Steel:       15.30%
+AAPC 1              $1.54/kg
+  Carbon Graphite/Cast Steel/Silicon Carbide/Rubber/Silicon Carbide/Hot Rolled Steel
+  Carbon Graphite:  1.50%
+  Cast Steel:       35.85%
+  Silicon Carbide:  46.75%
+  Rubber:           5.25%
+  Hot Rolled Steel: 10.65%
