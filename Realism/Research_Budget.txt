@@ -1,0 +1,10 @@
+Material Costs
+-------------------------------
+RHA         $1.15/kg
+Cast        $1.21/kg
+Ceramic     $1.54/kg
+Aluminium   $0.73/kg
+ERA         
+Textile     
+Fiberglass  
+Rubber      
