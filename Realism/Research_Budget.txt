@@ -4,12 +4,15 @@ RHA, Cast, Ceramic, Aluminium, ERA, Textile, Fiberglass, Rubber
 
 Hot Rolled Steel      $1.77/kg
   (RHA) Hardness.
+  8050kg/m3
 Cast Steel            $1.21/kg
   (Cast) Strength.
+  8050kg/m3
 Aluminium             $1.74/kg
   (Aluminium) Lightness.
 Rubber                $1.58/kg
   (Rubber) Heat dispersion, spall.
+  1522kg/m3
 Titanium Carbide      $67.90/kg
   (Ceramic) Hardness.
 Boron Carbide         $15.74/kg
@@ -18,6 +21,7 @@ Silicon Carbide       $1.74/kg
   (Ceramic) Large projectiles.
 Carbon Fibre          $143.91/kg
   (Textile) Lightness, strength.
+  1800kg/m3
 Carbon Graphite 101   $1.65/kg
   (Textile) Lightness; spall.
 Titanium Grade 7H     $47.85/kg
