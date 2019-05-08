@@ -10,24 +10,31 @@ Cast Steel            $1.21/kg
   8050kg/m3
 Aluminium             $1.74/kg
   (Aluminium) Lightness.
+  2830kg/m3
 Rubber                $1.58/kg
   (Rubber) Heat dispersion, spall.
   1522kg/m3
 Titanium Carbide      $67.90/kg
   (Ceramic) Hardness.
+  4930kg/m3
 Boron Carbide         $15.74/kg
   (Ceramic) Lightness, hardness; small projectiles.
+  2520kg/m3
 Silicon Carbide       $1.74/kg
   (Ceramic) Large projectiles.
+  3210kg/m
 Carbon Fibre          $143.91/kg
   (Textile) Lightness, strength.
   1800kg/m3
 Carbon Graphite 101   $1.65/kg
   (Textile) Lightness; spall.
+  2155kg/m3
 Titanium Grade 7H     $47.85/kg
   (Cast) Lightness, strength.
+  4500kg/m3
 Depleted Uranium      $55.67/kg
   (RHA) Heavy, hardness.
+  19100kg/m3
 
 
 
